@@ -1,0 +1,21 @@
+.inputBox {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+
+  input {
+    font-family: var(--font-primary);
+    font-size: 1rem;
+    font-weight: 400;
+
+    padding: 0 1.2rem;
+    height: 3.3rem;
+
+    background: var(--color-gray-1);
+    border: 2px solid var(--color-gray-2);
+    border-radius: 8px;
+  }
+  ::placeholder {
+    color: var(--color-gray-3);
+  }
+}

@@ -1,0 +1,19 @@
+.boxFinancesList {
+  width: 100%;
+  max-width: 22rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin: 0 auto;
+  border-radius: 0.25rem;
+  border: 0.125rem solid var(--color-gray-2);
+  height: 8rem;
+  padding: 2rem;
+  position: absolute;
+  left: 32.5625rem;
+  top: 35rem;
+}
+.boxFinancesList__valoue {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,15 @@
+.boxFinancesSection {
+  display: flex;
+
+  & > div:first-child {
+    width: 25.625rem;
+    margin-right: 3.75rem;
+  }
+
+  & > div:last-child {
+    width: 31.25rem;
+  }
+  @media (max-width: 61.25rem) {
+    flex-wrap: wrap;
+  }
+}
